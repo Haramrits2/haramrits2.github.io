@@ -9,177 +9,188 @@ h1{   font-weight: bold;  /* Makes the text bold */
 background-color: #A0522D; /*Changes the background colour to Sienna */
 width: 700px; /*Makes the width to 700 pixels */
 text-align:center; /*Aligns the text in the center of the page */
-position: absolute; left: 35%; /* Positions the heading 35% up from the left */
+position: absolute; left: 35%; /* Positions the heading 35% from the left */
 border-radius: 40px; /* Makes the corners round of the heading with a radius of 40 pixels */
 font-size: 70px; /* Makes the font-size/text-size to 70 pixels*/
 line-height: 40px;/*Makes the vertical spacing/line height to 40px */
 }
-img{width: 360px;
-height: 300px;
-position:absolute; left: 0%;}
+img{width: 360px; /*Makes the width to 360 pixels */
+height: 300px; /*Makes the height to 300 pixels */
+position:absolute; left: 0%;} /* Positions the image 0% from the left */
 
 h2{
-    font-weight: bold;
-    border: 2px solid black;
-    padding: 15px;
-    color: black    ;
-background-color: #A0522D;
-width: 400px;
-text-align:center;
-position: absolute; left: 41%;
-border-radius: 240px;
-font-size: 50px;
-line-height: 20px;
-position: absolute; top: 15%;
-text-decoration: underline ;}
+font-weight: bold;  /* Makes the text bold */
+border: 2px solid black; /* Adds a border that is black and solid which is 2 pixels */
+padding: 20px; /* Adds 20px of space inside the heading, between the content and its border */
+color: black; /* Makes the text colour black */
+background-color: #A0522D; /*Changes the background colour to Sienna */
+width: 400px; /*Makes the width to 400 pixels */
+text-align:center; /*Aligns the text in the center of the page */
+position: absolute; left: 41%;  /* Positions the heading 41% from the left */
+border-radius: 240px; /* Makes the corners round of the heading with a radius of 240 pixels */
+font-size: 50px; /* Makes the font-size/text-size to 50 pixels*/
+line-height: 20px; /*Makes the vertical spacing/line height to 20px */
+position: absolute; top: 15%; /* Positions the heading 15% from the top */
+text-decoration: underline; /* underlines the text */
+}
 
-P{font-weight: normal;
-border: 1px dashed black;
-background-color: #A0522D;
-padding: 15px;
-width: 1400px;
-font-size: 40px;
-position:absolute; top: 30%;
-line-height: 70px;
-position: absolute; left: 21%;}
+P{font-weight: normal; /* Makes the text normal */
+border: 1px dashed black; /* Adds a border that is black and dashed which is 1 pixel */
+background-color: #A0522D; /*Changes the background colour to Sienna */
+padding: 15px; /* Adds 15px of space inside the heading, between the content and its border */
+width: 1400px; /*Makes the width to 1400 pixels */
+font-size: 40px; /* Makes the font-size/text-size to 40 pixels*/
+position:absolute; top: 30%; /* Positions the heading 30% from the top */
+line-height: 70px; /*Makes the vertical spacing/line height to 70px */
+position: absolute; left: 21%; /* Positions the heading 21% from the left */
+}
 
 .dropbtn {
-  background-color: #A0522D;
-  color: black;
-  padding: 15px;
-  font-size: 50px;
-  border: solid black;
-  border-radius: 20px;
-  width: 250px;
+  background-color: #A0522D; /*Changes the background colour to Sienna */
+  color: black; /* Makes the text colour black */
+  padding: 15px; /* Adds 15px of space inside the button, between the content and its border */
+  font-size: 50px; /* Makes the font-size/text-size to 50 pixels*/
+  border: solid black; /* Adds a border that is black and solid */
+  border-radius: 20px; /* Makes the corners round of the button with a radius of 40 pixels */
+  width: 250px; /*Makes the width to 250 pixels */
   }
   
   .dropdown {
-    position: relative;
-    display: inline-block;
+    position: relative; /*Positions the dropdown relative to its normal position*/
+    display: inline-block; /* Shows the dropdown next to other items, but lets it act like a block */
   }
   
   .dropdown-content {
-    display: none;
-    position: absolute; top: auto;
-    background-color: #A0522D;
-    width: 160px;
-    border: dashed black;
-    font-size: 20px;
-    text-decoration: underline;
-    margin-left: 0px;
+    display: none; /* Hides the dropdown content by default */
+    position: absolute; top: auto;  /* Positions the dropdown-content automatically from the top */
+    background-color: #A0522D; /*Changes the background colour to Sienna */
+    width: 160px; /*Makes the width to 160 pixels */
+    border: dashed black; /* Adds a border that is black and dashed*/
+    font-size: 20px; /* Makes the font-size/text-size to 20 pixels*/
+    text-decoration: underline; /* underlines the text */
+    margin-left: 0px; /* Shifts the dropdown-content to the left by 0 pixels to adjust alignment or positioning */
   }
   
   .dropdown-content a {
-    color: black;
-    padding: 20px 24px;
-    text-decoration: none;
-    display: block;
+    color: black; /* Sets the text color to black */
+    padding: 20px 24px; /* Adds space inside the link as the 20px is top/bottom and the 24px left/right */
+    text-decoration: none; /* Removes underline from the link text */
+    display: block; /* Makes the link take up the full width */
   }
   
-  .dropdown-content a:hover {background-color: #FFCC99;}
+  .dropdown-content a:hover {
+  background-color: #FFCC99; /* Changes the background color to peach when the user hovers over a link */
+  }
   
-  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {
+  display: block; /* Shows the dropdown content when the user hovers over the dropdown */
+  }
   
-  .dropdown:hover .dropbtn {background-color: #FFCC99;}
+  .dropdown:hover .dropbtn {background-color: #FFCC99; /* Changes the button's background color to peach when the user hovers over the dropdown */
+  }
 
   .potionbtn {
-    background-color: #A0522D;
-    color: black;
-    padding: 15px;
-    font-size: 50px;
-    border: solid black;
-    border-radius: 20px;
-    width: 250px;
-
+  background-color: #A0522D; /*Changes the background colour to Sienna */
+  color: black; /* Makes the text colour black */
+  padding: 15px; /* Adds 15px of space inside the button, between the content and its border */
+  font-size: 50px; /* Makes the font-size/text-size to 50 pixels*/
+  border: solid black; /* Adds a border that is black and solid */
+  border-radius: 20px; /* Makes the corners round of the button with a radius of 40 pixels */
+  width: 250px; /*Makes the width to 250 pixels */
   }
   
   .potiondown {
-    position: relative;
-    display: inline-block;
+    position: relative; /*Positions the potiondown relative to its normal position*/
+    display: inline-block; /* Shows the potiondown next to other items, but lets it act like a block */
   }
   
   .potion-content {
-    display: none;
-    position: absolute; top: auto;
-    background-color: #A0522D;
-    width: 160px;
-    border: dashed black;
-    font-size: 20px;
-    text-decoration: underline;
-    margin-left: 0px;
-   
+    display: none; /* Hides the potion content by default */
+    position: absolute; top: auto;  /* Positions the potion-content automatically from the top */
+    background-color: #A0522D; /*Changes the background colour to Sienna */
+    width: 160px; /*Makes the width to 160 pixels */
+    border: dashed black; /* Adds a border that is black and dashed*/
+    font-size: 20px; /* Makes the font-size/text-size to 20 pixels*/
+    text-decoration: underline; /* underlines the text */
+    margin-left: 0px; /* Shifts the potion-content to the left by 0 pixels to adjust alignment or positioning */
   }
   
   .potion-content a {
-    color: black;
-    padding: 20px 24px;
-    text-decoration: none;
-    display: block;
+    color: black; /* Sets the text color to black */
+    padding: 20px 24px; /* Adds space inside the link as the 20px is top/bottom and the 24px left/right */
+    text-decoration: none; /* Removes underline from the link text */
+    display: block; /* Makes the link take up the full width */
   }
   
-  .potion-content   a:hover {background-color: #FFCC99;}
+  .potion-content   a:hover {
+    background-color: #FFCC99; /* Changes the background color to peach when the user hovers over a link */
+  }
   
-  .potiondown:hover .potion-content {display: block;}
+  .potiondown:hover .potion-content {
+    display: block; /* Shows the potion-content when the user hovers over the potiondown */
+  }
   
-  .potiondown:hover .potionbtn {background-color: #FFCC99;}
+  .potiondown:hover .potionbtn {
+    background-color: #FFCC99; /* Changes the button's background color to peach when the user hovers over the potiondown */
+  }
 
   .armourbtn {
-    background-color: #A0522D;
-    color: black;
-    padding: 15px;
-    font-size: 50px;
-    border: solid black;
-    border-radius: 20px;
-    width: 250px;
+  background-color: #A0522D; /*Changes the background colour to Sienna */
+  color: black; /* Makes the text colour black */
+  padding: 15px; /* Adds 15px of space inside the button, between the content and its border */
+  font-size: 50px; /* Makes the font-size/text-size to 50 pixels*/
+  border: solid black; /* Adds a border that is black and solid */
+  border-radius: 20px; /* Makes the corners round of the button with a radius of 40 pixels */
+  width: 250px; /*Makes the width to 250 pixels */
     
   }
   
   .armourdown {
-    position: relative;
-    display: inline-block;
+    position: relative; /*Positions the armourdown relative to its normal position*/
+    display: inline-block; /* Shows the armourdown next to other items, but lets it act like a block */
   }
   
   .armour-content {
-    display: none;
-    position: absolute; top: auto;
-    background-color: #A0522D;
-    width: 160px;
-    border: dashed black;
-    font-size: 20px;
-    text-decoration: underline;
-    margin-left: 0px;
+    display: none; /* Hides the armour content by default */
+    position: absolute; top: auto;  /* Positions the armour-content automatically from the top */
+    background-color: #A0522D; /*Changes the background colour to Sienna */
+    width: 160px; /*Makes the width to 160 pixels */
+    border: dashed black; /* Adds a border that is black and dashed*/
+    font-size: 20px; /* Makes the font-size/text-size to 20 pixels*/
+    text-decoration: underline; /* underlines the text */
+    margin-left: 0px; /* Shifts the armour-content to the left by 0 pixels to adjust alignment or positioning */
     
    
   }
   
   .armour-content a {
-    color: black;
-    padding: 20px 24px;
-    text-decoration: none;
-    display: block;
+    color: black; /* Sets the text color to black */
+    padding: 20px 24px; /* Adds space inside the link as the 20px is top/bottom and the 24px left/right */
+    text-decoration: none; /* Removes underline from the link text */
+    display: block; /* Makes the link take up the full width */
   }
   
   .armour-content   a:hover 
   {
-    background-color: #FFCC99;
+    background-color: #FFCC99; /* Changes the background color to peach when the user hovers over a link */
   }
   
   .armourdown:hover .armour-content 
   {
-    display: block;
+    display: block; /* Shows the armour-content when the user hovers over the armourdown */
   }
   
   .armourdown:hover .armourbtn 
   {
-    background-color: #FFCC99;
+    background-color: #FFCC99; /* Changes the button's background color to peach when the user hovers over the armourdown */
   }
 
 
 
 
   div{
-position: absolute; top: 65%;
-margin-left: 450px;
+position: absolute; top: 65%; /* Positions the element in the div 65% from the top */
+margin-left: 450px; /* Shifts the elements in the div to the left by 450 pixels to adjust alignment or positioning */
 
 }
 
