@@ -4,6 +4,7 @@ background-color: #6D8764; /*Changes the background colour to Moss Green */
     }
 
 button{
+    background-color: #A0522D;  /*Changes the background colour to Sienna */
     position: absolute; left: 45%; /*Changes the position of the button from the left by 45% */
 font-size: 35px;    /*Changes the font-size to 35 pixels */
 font-style: Montserrat;  /*Changes the font to the google font Montserrat */
