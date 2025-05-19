@@ -1,0 +1,46 @@
+body{ 
+    background-color: #6D8764;  /*Changes the background colour to Moss Green */
+}
+
+button {
+
+background-color: #A0522D;  /*Changes the background colour to Sienna */
+font-size: 35px;    /*Changes the font-size to 35 pixels */
+font-style: Montserrat;  /*Changes the font to the google font Montserrat */
+width: 260px;   /*Makes the width to 260 pixels */
+line-height: 2;  /*Makes the line-height/vertical spacing to 2 */
+position:absolute; top: 43.4%;  /*Changes the position of the botton from the top by 43.4% */
+margin-left: -10.5%; /* Shifts the button to the left by -10.5% to adjust alignment or positioning */
+}
+
+img {
+width: 260px; /*Makes the width to 260 pixels */
+margin-left: 5%; /* Shifts the image to the left by 5% to adjust alignment or positioning */
+margin-top: 12%; /* Shifts the image to the top by 12% to adjust alignment or positioning */
+border-style: dashed;  /* Creates a dashed outline around the image's border */
+border-radius: 30px;  /* Makes the corners round of the image with a radius of 30 pixels */
+}
+        
+    
+div{
+    position:absolute; bottom: 7%; /* Positions the element in the div 7% up from the bottom */
+    margin: 2%; /* Adds 2% spacing around all sides of the elements within the div */
+}
+
+
+
+
+
+
+h1{   font-weight: bold;  /* Makes the text bold */
+    border: 2px solid black; /* Adds a border that is black and solid which is 2 pixels */
+    padding: 20px; /* Adds 20px of space inside the heading, between the content and its border */
+    color: black; /* Makes the text colour black */
+background-color: #A0522D; /*Changes the background colour to Sienna */
+width: 700px; /*Makes the width to 700 pixels */
+text-align:center; /*Aligns the text in the center of the page */
+position: absolute; left: 35%; /* Positions the heading 35% up from the left */
+border-radius: 40px; /* Makes the corners round of the heading with a radius of 40 pixels */
+font-size: 70px; /* Makes the font-size/text-size to 70 pixels*/
+line-height: 40px;/*Makes the vertical spacing/line height to 40px */
+}
