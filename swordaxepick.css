@@ -9,7 +9,7 @@ font-size: 35px;    /*Changes the font-size to 35 pixels */
 font-style: Montserrat;  /*Changes the font to the google font Montserrat */
 width: 260px;   /*Makes the width to 260 pixels */
 line-height: 2;  /*Makes the line-height/vertical spacing to 2 */
-position:absolute; top: 43.4%;  /*Changes the position of the button from the top by 43.4% */
+position:absolute; top: 46.4%;  /*Changes the position of the button from the top by 43.4% */
 margin-left: -10.5%; /* Shifts the button to the left by -10.5% to adjust alignment or positioning */
 }
 
